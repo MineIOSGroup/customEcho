@@ -1,0 +1,17 @@
+
+platform :ios, '8.0'
+
+pod 'AFNetworking', '~> 2.6.0'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'Reachability', '~> 3.2'
+pod 'MJExtension', '~> 2.5.12'
+pod 'SDCycleScrollView', '~> 1.3'
+pod 'RESideMenu', '~> 4.0.7'
+pod 'pop', '~> 1.0.8'
+pod 'CHTCollectionViewWaterfallLayout', '~> 0.9.2'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'Toast', '~> 3.0'
+pod 'SVProgressHUD'
+pod 'CocoaLumberjack', '~> 2.2.0'
+pod 'M80AttributedLabel', '~> 1.3.1'
+pod 'FMDB', '~> 2.6'

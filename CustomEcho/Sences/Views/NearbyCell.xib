@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="NearbyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SvM-FT-05i">
+                        <rect key="frame" x="8" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Ah9-AE-YLv"/>
+                            <constraint firstAttribute="width" constant="40" id="H6b-94-x6L"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.01km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVU-4N-7aC">
+                        <rect key="frame" x="274" y="33" width="38" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="最近在听：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pta-VU-Z4h">
+                        <rect key="frame" x="56" y="35" width="72" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nickname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nym-bD-sGO">
+                        <rect key="frame" x="56" y="8" width="66" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="song" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fg-LH-6dt">
+                        <rect key="frame" x="136" y="35" width="72" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGl-QR-PKb">
+                        <rect key="frame" x="295" y="8" width="17" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="SIk-RT-nHZ"/>
+                            <constraint firstAttribute="height" constant="22" id="UGW-xl-oo7"/>
+                        </constraints>
+                        <state key="normal" image="评论.png"/>
+                        <connections>
+                            <action selector="chatButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ehu-6T-yi1"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHh-zO-uCm">
+                        <rect key="frame" x="265" y="8" width="16" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="VX7-9k-j3p"/>
+                            <constraint firstAttribute="width" constant="16" id="ytf-JO-gdX"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="喜欢.png"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAJ-tO-KiK">
+                        <rect key="frame" x="0.0" y="62" width="320" height="10"/>
+                        <color key="backgroundColor" red="0.91372549020000005" green="0.90196078430000004" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="GxE-LM-MRd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="YAJ-tO-KiK" secondAttribute="trailing" constant="-8" id="392-In-XkY"/>
+                    <constraint firstItem="eGl-QR-PKb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="8A0-CX-sAc"/>
+                    <constraint firstItem="eGl-QR-PKb" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="8bs-BT-yS9"/>
+                    <constraint firstItem="eGl-QR-PKb" firstAttribute="leading" secondItem="nHh-zO-uCm" secondAttribute="trailing" constant="14" id="90t-BH-tkY"/>
+                    <constraint firstItem="NVU-4N-7aC" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="CeN-Q5-KvX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YAJ-tO-KiK" secondAttribute="bottom" constant="-9" id="PrJ-e3-hbe"/>
+                    <constraint firstItem="NVU-4N-7aC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="Ro5-CL-yba"/>
+                    <constraint firstItem="YAJ-tO-KiK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="a5p-j7-2Oc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="NVU-4N-7aC" secondAttribute="bottom" constant="2" id="fns-r5-fMV"/>
+                    <constraint firstItem="SvM-FT-05i" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="jLG-2z-t8G"/>
+                    <constraint firstItem="nHh-zO-uCm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="qv3-L2-uvA"/>
+                    <constraint firstItem="SvM-FT-05i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="wKv-gi-iim"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatar" destination="SvM-FT-05i" id="dC6-GZ-NqX"/>
+                <outlet property="chat" destination="eGl-QR-PKb" id="D5P-gd-TQL"/>
+                <outlet property="nickName" destination="Nym-bD-sGO" id="K0Z-Vp-8zR"/>
+                <outlet property="songName" destination="4fg-LH-6dt" id="whk-DH-Eyq"/>
+            </connections>
+            <point key="canvasLocation" x="318" y="290.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="喜欢.png" width="16" height="16"/>
+        <image name="评论.png" width="16" height="16"/>
+    </resources>
+</document>
