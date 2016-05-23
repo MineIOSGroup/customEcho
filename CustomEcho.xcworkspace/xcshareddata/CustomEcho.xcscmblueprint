@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EEA7AEA59734999892391E5237C824A170355050",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EEA7AEA59734999892391E5237C824A170355050" : 0,
+    "624181836F8950E3047C9FD07703E231C58849A2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FB02B94-473A-4396-AB7D-B054416211DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EEA7AEA59734999892391E5237C824A170355050" : "CustomEcho\/",
+    "624181836F8950E3047C9FD07703E231C58849A2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomEcho",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomEcho.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zxtcko\/iosdevelop-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "624181836F8950E3047C9FD07703E231C58849A2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.coding.net:kneil\/CustomEcho.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEA7AEA59734999892391E5237C824A170355050"
+    }
+  ]
+}
