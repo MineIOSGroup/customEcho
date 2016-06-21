@@ -2,7 +2,7 @@
 
 A custom UI of [Echo](https://itunes.apple.com/us/app/echo-hui-sheng+-du-jia3d-yin/id1063969207?l=zh&ls=1&mt=8) with feature of music playing on stream, download, bullet
 ###Preview
-[Imgur](http://i.imgur.com/sbcGwgK.gifv)
+![](https://github.com/zxtcko/CustomEcho/raw/master/path/to/CustomEchoDemo.gif)
 
 ###Structure
 ![](http://screenshot.net/y7nvya3.jpg)
